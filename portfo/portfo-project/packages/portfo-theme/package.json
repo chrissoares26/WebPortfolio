@@ -1,0 +1,15 @@
+{
+  "name": "portfo-theme",
+  "version": "1.0.0",
+  "description": "Frontity package created using the Frontity CLI.",
+  "keywords": [
+    "frontity",
+    "frontity-theme"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@frontity/components": "^1.7.1",
+    "@frontity/html2react": "^1.6.2",
+    "frontity": "^1.14.1"
+  }
+}

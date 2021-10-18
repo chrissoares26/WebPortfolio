@@ -1,0 +1,207 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "6c9967845f126c7c6cd5",
+  "publicPath": "/static/",
+  "outputPath": "/Users/christophersoares/Desktop/PortfolioWebsite/portfo/portfo-project/build/static",
+  "assetsByChunkName": {
+    "portfo-project": [
+      "portfo-project.module.js",
+      "portfo-project.1c1431938801889a1316.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "1c1431938801889a1316.hot-update.json",
+      "size": 56,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/inter-300.woff2",
+      "size": 17652,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/fonts/inter-300.woff2"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/inter-500.woff2",
+      "size": 17996,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/fonts/inter-500.woff2"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/inter-600.woff2",
+      "size": 18096,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/fonts/inter-600.woff2"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/inter-700.woff2",
+      "size": 18020,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/fonts/inter-700.woff2"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/inter-800.woff2",
+      "size": 18116,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/fonts/inter-800.woff2"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/inter-900.woff2",
+      "size": 17604,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/fonts/inter-900.woff2"
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/inter-regular.woff2",
+      "size": 17156,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/fonts/inter-regular.woff2"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Dark-404.png",
+      "size": 68490,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/img/Dark-404.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Light-404.png",
+      "size": 62482,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/img/Light-404.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/checked.png",
+      "size": 238,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/img/checked.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/close.png",
+      "size": 1544,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/img/close.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/list.svg",
+      "size": 227,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/icons/list.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/profile.png",
+      "size": 42786,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/portfo-theme/src/components/assets/img/profile.png"
+      },
+      "emitted": false
+    },
+    {
+      "name": "portfo-project.1c1431938801889a1316.hot-update.js",
+      "size": 18119,
+      "chunks": [
+        "portfo-project"
+      ],
+      "chunkNames": [
+        "portfo-project"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "portfo-project.module.js",
+      "size": 43625953,
+      "chunks": [
+        "portfo-project"
+      ],
+      "chunkNames": [
+        "portfo-project"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "portfo-project": {
+      "chunks": [
+        "portfo-project"
+      ],
+      "assets": [
+        "portfo-project.module.js",
+        "portfo-project.1c1431938801889a1316.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "portfo-project",
+      "files": [
+        "portfo-project.module.js",
+        "portfo-project.1c1431938801889a1316.hot-update.js"
+      ]
+    }
+  ]
+}
