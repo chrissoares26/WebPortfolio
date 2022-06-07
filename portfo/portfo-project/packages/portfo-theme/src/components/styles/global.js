@@ -9,6 +9,7 @@ const GlobalCSS = ({ state, theme }) => {
   // const { primary, Success, sidebar, base, light, text, bodyBG } = state.theme.Colors.black;
   const {
     primary,
+    banner,
     secondary,
     barShadow,
     baseColor,
@@ -211,7 +212,7 @@ const GlobalCSS = ({ state, theme }) => {
           content: "";
         }
         a {
-          color: ${primary};
+          color: ${theme ? "#0A9141" : "#28d56e"};
         }
         a,
         path {
@@ -233,18 +234,18 @@ const GlobalCSS = ({ state, theme }) => {
           transition: all ease-in 300ms;
         }
         .primary {
-          color: ${primary};
+          color: ${banner};
         }
         .author-wrapper li p {
           background-color: ${primary};
-          color: ${theme ? "#FFF" : "#FFF"};
+          color: ${theme ? "#DFE6E8" : "#052b37"};
         }
         .btn-fill-primary a {
-          color: ${theme ? "#2B2B2B" : "#fff"};
+          color: ${theme ? "#052b37" : "#DFE6E8"};
           background-color: ${primary};
           transition: all ease-in 300ms;
           & :hover {
-            color: ${theme ? "#fff" : "#2B2B2B"};
+            color: ${theme ? "#DFE6E8" : "#052b37"};
           }
         }
         .right-sidebar {
@@ -274,13 +275,13 @@ const GlobalCSS = ({ state, theme }) => {
         .left-bottom-btn {
           & button {
             background: ${primary};
-            color: ${theme ? "#FFF" : "#FFF"};
+            color: ${theme ? "#DFE6E8" : "#052B37"};
             &:focus {
               outline: none;
             }
           }
           & svg {
-            color: ${theme ? "#2B2B2B" : "#FFF"};
+            color: ${theme ? "#DFE6E8" : "#052B37"};
           }
         }
         input[type="submit" i]:focus {
@@ -288,10 +289,11 @@ const GlobalCSS = ({ state, theme }) => {
         }
         .social-link-list {
           & svg {
-            color: ${theme ? "#2B2B2B" : "#FFF"};
+            color: ${theme ? "#052B37" : "#052B37"};
+            fill: ${theme ? "#DFE6E8" : "#052B37"};
           }
           & a:hover svg {
-            color: ${theme ? "#FFF" : "#2B2B2B"};
+            color: ${theme ? "#DFE6E8" : "#052B37"};
           }
           & a {
             background-color: ${primary};
@@ -330,7 +332,7 @@ const GlobalCSS = ({ state, theme }) => {
           position: absolute;
           z-index: 9;
           cursor: pointer;
-          color: ${theme ? "#2B2B2B" : "#FFFFFF"};
+          color: ${theme ? "#052b37" : "#df36e8"};
           font-size: 32px;
           opacity: 0;
           transform: translatey(30px);
@@ -444,7 +446,7 @@ const GlobalCSS = ({ state, theme }) => {
           padding: 10px;
           font-size: 16px;
           color: ${textColor};
-          background: ${theme ? bodyBG : "#3A3B3C"};
+          background: ${theme ? bodyBG : "#DFE6E8"};
           border: none;
           width: 100%;
         }
@@ -452,7 +454,7 @@ const GlobalCSS = ({ state, theme }) => {
           cursor: pointer;
           background: ${primary};
           text-transform: uppercase;
-          color: ${theme ? secondary: "#FFF"};
+          color: ${theme ? secondary : "#052B37"};
           font-size: 14px;
           font-weight: 600;
           font-family: "Inter";
@@ -504,7 +506,7 @@ const GlobalCSS = ({ state, theme }) => {
         }
         .progress_bar,
         .progress_bar_outline {
-          color: ${theme ? primary : baseColor}
+          color: ${theme ? primary : baseColor};
         }
         .btn-white-color > .wp-block-button__link {
           color: ${headingColor};
@@ -769,7 +771,7 @@ const GlobalCSS = ({ state, theme }) => {
           cursor: pointer;
           background: ${primary};
           padding: 15px 30px;
-          color: ${theme ? "#2B2B2B" : "#FFF"};
+          color: ${theme ? "#052B37" : "#DFE6E8"};
           font-size: 17px;
           font-weight: 500;
           & svg {
@@ -874,10 +876,12 @@ const GlobalCSS = ({ state, theme }) => {
         }
         .history-wrapper .bg-primary {
           background: ${primary};
+          color: ${theme ? "#DFE6E8" : " #052B37"};
           font-size: 10px;
           padding: 3px 10px;
           margin-left: 20px;
         }
+
         .history-info .wp-block-columns {
           margin-top: 1.75em;
           &:first-of-type {
@@ -1178,8 +1182,8 @@ const GlobalCSS = ({ state, theme }) => {
             .tooltip {
               visibility: hidden;
               width: 100px;
-              background-color: ${theme ? "#2B2B2B" : "#FFFFFF"};
-              color: ${theme ? "#FFFFFF" : "#2B2B2B"};
+              background-color: ${theme ? "#052B37" : "#DFE6E8"};
+              color: ${theme ? "#DFE6E8" : "#052B37"};
               text-align: center;
               border-radius: 2px;
               padding: 5px 0;

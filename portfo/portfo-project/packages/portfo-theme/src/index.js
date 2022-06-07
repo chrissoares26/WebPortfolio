@@ -32,35 +32,38 @@ export default {
         // color will apply on Light Theme mode
         lightTheme: {
           // Praimary color
-          primary: "#182865",
-          secondary: "#FFFFFF",
+          primary: "#052b37",
+          banner: "#28d56e",
+          barLine: "#17B356",
+          secondary: "#dfe6e8",
           barShadow: "4px 0px 10px rgba(47, 122, 249, 0.1)",
-          baseColor: "#767676",
-          lightColor: "#FAFAFA",
+          baseColor: "#052b37",
+          lightColor: "#28d56e",
           headingColor: "#2B2B2B",
-          textColor: "#767676",
-          bodyBG: "#F0F0F6",
+          textColor: "#052b37",
+          bodyBG: "#C8D1D4",
         },
         // color will apply on Dark Theme mode
         darkTheme: {
-          primary: "#DD663B",
-          secondary: "#242526",
+          primary: "#28d56e",
+          banner: "#28d56e",
+          barLine: "#17B356",
+          secondary: "#144E60",
           barShadow: "4px 0px 10px rgba(28, 28, 28, 0.1)",
-          baseColor: "#3A3B3C",
-          lightColor: "#767676",
+          baseColor: "#144E60",
+          lightColor: "#016F2E",
           headingColor: "#FAFAFA",
           textColor: "#E4E6EB",
-          bodyBG: "#18191A",
+          bodyBG: "#052b37",
         },
       },
 
       // Settings for the Author Information
       authorinfo: {
         name: "Chris Soares",
-        position: "Software Engineer",
+        position: "Junior Frontend Developer",
         age: 28,
-        residence: "Rexburg,ID",
-        address: "111 W 7th S",
+        residence: "Frankfurt am Main,Hesse",
       },
 
       // Settings for the Author Language's
@@ -70,8 +73,8 @@ export default {
 
       language: [
         ["Portuguese", "100%"],
-        ["English", "90%"],
-        ["Spanish", "60%"],
+        ["English", "95%"],
+        ["Spanish", "70%"],
       ],
 
       // Settings for the Author Skill's
@@ -80,11 +83,10 @@ export default {
       },
 
       skill: [
-        ["Html", "90%"],
+        ["HTML", "90%"],
         ["CSS", "90%"],
         ["JS", "80%"],
-        ["PHP", "70%"],
-        ["WordPress", "80%"],
+        ["React.js", "70%"],
       ],
 
       // Settings for the Author Extra Skill's
@@ -96,7 +98,9 @@ export default {
         ["Python"],
         ["MySQL"],
         ["Node.js"],
-        ["Git Knowledge"],
+        ["Git"],
+        ["Agile"],
+        ["Ember.js"],
       ],
 
       // Post Thumbnail Show & Hide option here ( Show = ture) ( Hide = false)
@@ -131,8 +135,8 @@ export default {
         linkedin: "on",
         linkedin_url: "https://www.linkedin.com/in/chrissoares26/",
 
-        instagram: "off",
-        instagram_url: "https://www.instagram.com/",
+        instagram: "on",
+        instagram_url: "https://www.instagram.com/chrissoares.dev",
 
         youtube: "off",
         youtube_url: "https://www.youtube.com/",

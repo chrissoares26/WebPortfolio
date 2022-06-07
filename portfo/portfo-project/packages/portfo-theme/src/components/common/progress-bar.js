@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { connect, styled , Global, css} from "frontity";
+import { connect, styled, Global, css } from "frontity";
 
 /*
  * Progress Component.
  * part of common component.
  * Author: ojjomedia <info@ojjomedia.com>
  */
-const ProgressBar = ({ state, label, now, theme}) => {
-  const { 
-    primary,
-    secondary 
-  } = state.theme.colors.darkTheme;
+const ProgressBar = ({ state, label, now, theme }) => {
+  const { barLine, primary, secondary } = state.theme.colors.lightTheme;
   const [completed, setCompleted] = useState(0);
   useEffect(() => {
     setCompleted(now);
@@ -22,9 +19,9 @@ const ProgressBar = ({ state, label, now, theme}) => {
         <ProgressBarTitle> {label} </ProgressBarTitle>
         <ProgressBarWidth> {now} </ProgressBarWidth>
       </ProgressBarlabel>
-      <ProgressBarOutline color={primary}>
+      <ProgressBarOutline color={barLine}>
         <ProgressBarbox>
-          <ProgressBarLine width={completed} color={primary}></ProgressBarLine>
+          <ProgressBarLine width={completed} color={barLine}></ProgressBarLine>
         </ProgressBarbox>
       </ProgressBarOutline>
     </ProgressWrapper>

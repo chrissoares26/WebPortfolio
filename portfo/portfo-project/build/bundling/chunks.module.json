@@ -1,27 +1,13 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "6c9967845f126c7c6cd5",
+  "hash": "7bfd2c6f9373c0c758dc",
   "publicPath": "/static/",
-  "outputPath": "/Users/christophersoares/Desktop/PortfolioWebsite/portfo/portfo-project/build/static",
+  "outputPath": "/Users/chrissoares/Desktop/Portfolio/WebPortfolio/portfo/portfo-project/build/static",
   "assetsByChunkName": {
-    "portfo-project": [
-      "portfo-project.module.js",
-      "portfo-project.1c1431938801889a1316.hot-update.js"
-    ]
+    "portfo-project": "portfo-project.module.js"
   },
   "assets": [
-    {
-      "name": "1c1431938801889a1316.hot-update.json",
-      "size": 56,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "fonts/inter-300.woff2",
       "size": 17652,
@@ -153,23 +139,8 @@
       "emitted": false
     },
     {
-      "name": "portfo-project.1c1431938801889a1316.hot-update.js",
-      "size": 18119,
-      "chunks": [
-        "portfo-project"
-      ],
-      "chunkNames": [
-        "portfo-project"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "portfo-project.module.js",
-      "size": 43625953,
+      "size": 43625606,
       "chunks": [
         "portfo-project"
       ],
@@ -187,8 +158,7 @@
         "portfo-project"
       ],
       "assets": [
-        "portfo-project.module.js",
-        "portfo-project.1c1431938801889a1316.hot-update.js"
+        "portfo-project.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -199,8 +169,7 @@
     {
       "id": "portfo-project",
       "files": [
-        "portfo-project.module.js",
-        "portfo-project.1c1431938801889a1316.hot-update.js"
+        "portfo-project.module.js"
       ]
     }
   ]

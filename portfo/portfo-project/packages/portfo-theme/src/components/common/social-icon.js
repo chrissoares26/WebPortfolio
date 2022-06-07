@@ -62,7 +62,6 @@ const SocialWrapper = styled.div`
   & svg {
     font-size: 12px;
     vertical-align: middle;
-    fill: white;
   }
   & a {
     padding: 7px;

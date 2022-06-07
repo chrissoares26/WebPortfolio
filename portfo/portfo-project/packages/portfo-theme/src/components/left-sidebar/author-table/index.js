@@ -19,10 +19,6 @@ const AuthorInfo = ({ state }) => {
         <p>Residence:</p>
         <span>{Author.residence}</span>
       </li>
-      <li>
-        <p>Address:</p>
-        <span>{Author.address}</span>
-      </li>
     </AuthorInfotable>
   );
 };

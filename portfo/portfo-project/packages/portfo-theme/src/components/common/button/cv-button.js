@@ -10,9 +10,14 @@ import { BiDownload } from "react-icons/bi";
 const CVButton = () => {
   return (
     <ButtonWrapper className="left-bottom-btn">
-      <a href="http://portfolio.chrissoarespro.com/wp-content/uploads/2021/10/Chris-Soares-Resume.pdf" target="_blank"><button type="button">
-        DOWNLOAD CV <BiDownload />
-      </button></a>
+      <a
+        href="http://portfolio.chrissoarespro.com/wp-content/uploads/2022/06/Chris-Soares-Resume.pdf"
+        target="_blank"
+      >
+        <button type="button">
+          DOWNLOAD CV <BiDownload />
+        </button>
+      </a>
     </ButtonWrapper>
   );
 };
