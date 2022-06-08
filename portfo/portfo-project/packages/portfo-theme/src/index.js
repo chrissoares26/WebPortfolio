@@ -63,7 +63,7 @@ export default {
         name: "Chris Soares",
         position: "Junior Frontend Developer",
         age: 28,
-        residence: "Frankfurt am Main,Hesse",
+        residence: "Frankfurt am Main, Hesse",
       },
 
       // Settings for the Author Language's

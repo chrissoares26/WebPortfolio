@@ -11,7 +11,7 @@ const CVButton = () => {
   return (
     <ButtonWrapper className="left-bottom-btn">
       <a
-        href="http://portfolio.chrissoarespro.com/wp-content/uploads/2022/06/Chris-Soares-Resume.pdf"
+        href="http://portfolio.chrissoarespro.com/wp-content/uploads/2022/06/Chris-Soares-Resume-Final.pdf"
         target="_blank"
       >
         <button type="button">

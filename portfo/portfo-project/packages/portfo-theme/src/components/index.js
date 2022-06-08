@@ -35,6 +35,11 @@ const Theme = ({ state }) => {
       <Head>
         <html lang="en" />
         <meta name="description" content={state.frontity.description} />
+        <meta
+          name="image"
+          property="og:image"
+          content="http://portfolio.chrissoarespro.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-07-at-2.14.23-AM.png"
+        />
       </Head>
       <MobileNavigation Theme={() => setTheme(!theme)} theme={theme} />
       <MainWrapper>
